@@ -1,5 +1,5 @@
-<div align="center">
-    <h1>🧠 Interpretable Brain Tumor Classification System</h1>
+<img width="8811" height="310" alt="deepseek_mermaid_20260603_4e775e" src="https://github.com/user-attachments/assets/e2063ef1-85a3-4981-b002-1b565b0a09c4" /><div align="center">
+    <h1> Interpretable Brain Tumor Classification System</h1>
     <h3>Deep Learning-based MRI Analysis with Explainable AI using Grad-CAM</h3>
     
 <a href="https://huggingface.co/spaces/somiya-khan01/Brain_Tumor_Classification" target="_blank">
@@ -11,7 +11,7 @@
 
 ---
 
-## 📌 About
+##  About
 
 A **Streamlit-based Web Application** to detect and classify brain tumors from MRI scans. The Deep Learning model is trained on a publicly available dataset of ~7,000 MRI images labeled across four classes: **Glioma**, **Meningioma**, **Pituitary Tumor**, and **No Tumor**.
 
@@ -19,22 +19,22 @@ The system uses **DenseNet169** architecture with transfer learning from ImageNe
 
 ---
 
-## 🎥 Live Demo
+##  Live Demo
 
 | Feature | Status |
 |---------|--------|
-| MRI Upload | ✅ Available |
-| Real-time Prediction | ✅ < 2 seconds |
-| Grad-CAM Visualization | ✅ 3-Panel Display |
-| Confidence Score | ✅ Displayed |
-| Probability Distribution | ✅ Bar Chart |
-| Report Download | ✅ Available |
+| MRI Upload |  Available |
+| Real-time Prediction |  < 2 seconds |
+| Grad-CAM Visualization |  3-Panel Display |
+| Confidence Score |  Displayed |
+| Probability Distribution |  Bar Chart |
+| Report Download |  Available |
 
 **Live Demo Link:** [https://huggingface.co/spaces/somiya-khan01/Brain_Tumor_Classification](https://huggingface.co/spaces/somiya-khan01/Brain_Tumor_Classification)
 
 ---
 
-## 🏗️ Model Architecture: DenseNet169
+##  Model Architecture: DenseNet169
 
 <img src="images/densenet_architecture.png" alt="DenseNet169 Architecture" width="100%"/>
 
@@ -53,21 +53,27 @@ The system uses **DenseNet169** architecture with transfer learning from ImageNe
 
 ### Residual / Identity Block
 
-<img src="images/identity_block.png" alt="Identity Block" width="60%"/>
+<img width="7086" height="310" alt="deepseek_mermaid_20260603_84f76b" src="https://github.com/user-attachments/assets/570988ba-c25e-42e0-b106-e1a53f7b31ea" />
+
 
 *Figure: Identity block showing skip connection (Add + ReLU)*
 
 ### Convolution Block
 
-<img src="images/conv_block.png" alt="Convolution Block" width="60%"/>
+<img width="8811" height="310" alt="deepseek_mermaid_20260603_4e775e" src="https://github.com/user-attachments/assets/c63615c6-b834-4916-bd68-ca7e52ad80af" />
+
+
+
 
 *Figure: Convolution block with projection skip connection*
 
 ---
 
-## 🔬 Grad-CAM Explainability Pipeline
+##  Grad-CAM Explainability Pipeline
 
-<img src="images/gradcam_pipeline.png" alt="Grad-CAM Pipeline" width="100%"/>
+<img width="6565" height="310" alt="deepseek_mermaid_20260603_28b7a4 (1)" src="https://github.com/user-attachments/assets/8a5d9e09-278b-4b1f-83d2-55cdb36a05fa" />
+
+
 
 *Figure: Grad-CAM pipeline showing how heatmaps are generated from MRI inputs*
 
@@ -84,7 +90,7 @@ The system uses **DenseNet169** architecture with transfer learning from ImageNe
 
 ---
 
-## 📊 Model Performance
+##  Model Performance
 
 ### Sample Test Predictions
 
@@ -94,72 +100,13 @@ The system uses **DenseNet169** architecture with transfer learning from ImageNe
 
 | True Label | Predicted Label | Confidence | Result |
 |------------|----------------|------------|--------|
-| Glioma | Meningioma | 77.7% | ❌ Incorrect |
-| No Tumor | No Tumor | 87.1% | ✅ Correct |
-| Meningioma | Meningioma | 100.0% | ✅ Correct |
-| Pituitary | Pituitary | 99.8% | ✅ Correct |
-| No Tumor | No Tumor | 100.0% | ✅ Correct |
+| Glioma | Meningioma | 77.7% |  Incorrect |
+| No Tumor | No Tumor | 87.1% |  Correct |
+| Meningioma | Meningioma | 100.0% |  Correct |
+| Pituitary | Pituitary | 99.8% |  Correct |
+| No Tumor | No Tumor | 100.0% |  Correct |
 
----
 
-### Confusion Matrix
-
-<table align="center" style="border-collapse: collapse; width: 100%; max-width: 800px; margin: 20px auto; background: #0D0D12; border-radius: 16px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
-  <caption style="font-size: 1.2rem; font-weight: bold; padding: 15px; color: white; background: #1E1E2A;">Confusion Matrix - Brain Tumor Classification</caption>
-  <thead>
-    <tr style="background: #6366F1;">
-      <th style="padding: 12px; color: white; text-align: center; border: 1px solid #1E1E2A;">True \ Pred</th>
-      <th style="padding: 12px; color: white; text-align: center; border: 1px solid #1E1E2A;">Glioma</th>
-      <th style="padding: 12px; color: white; text-align: center; border: 1px solid #1E1E2A;">Meningioma</th>
-      <th style="padding: 12px; color: white; text-align: center; border: 1px solid #1E1E2A;">No Tumor</th>
-      <th style="padding: 12px; color: white; text-align: center; border: 1px solid #1E1E2A;">Pituitary</th>
-      <th style="padding: 12px; color: white; text-align: center; border: 1px solid #1E1E2A;">Accuracy</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr style="background: #1E1E2A;">
-      <td style="padding: 12px; color: white; text-align: center; font-weight: bold; border: 1px solid #27272A;">Glioma</td>
-      <td style="padding: 12px; color: #4ade80; text-align: center; font-weight: bold; border: 1px solid #27272A;">125</td>
-      <td style="padding: 12px; color: #f87171; text-align: center; border: 1px solid #27272A;">8</td>
-      <td style="padding: 12px; color: #f87171; text-align: center; border: 1px solid #27272A;">4</td>
-      <td style="padding: 12px; color: #f87171; text-align: center; border: 1px solid #27272A;">3</td>
-      <td style="padding: 12px; color: #4ade80; text-align: center; font-weight: bold; border: 1px solid #27272A;">89.3%</td>
-    </tr>
-    <tr style="background: #0D0D12;">
-      <td style="padding: 12px; color: white; text-align: center; font-weight: bold; border: 1px solid #27272A;">Meningioma</td>
-      <td style="padding: 12px; color: #f87171; text-align: center; border: 1px solid #27272A;">6</td>
-      <td style="padding: 12px; color: #4ade80; text-align: center; font-weight: bold; border: 1px solid #27272A;">118</td>
-      <td style="padding: 12px; color: #f87171; text-align: center; border: 1px solid #27272A;">7</td>
-      <td style="padding: 12px; color: #f87171; text-align: center; border: 1px solid #27272A;">5</td>
-      <td style="padding: 12px; color: #4ade80; text-align: center; font-weight: bold; border: 1px solid #27272A;">86.8%</td>
-    </tr>
-    <tr style="background: #1E1E2A;">
-      <td style="padding: 12px; color: white; text-align: center; font-weight: bold; border: 1px solid #27272A;">No Tumor</td>
-      <td style="padding: 12px; color: #f87171; text-align: center; border: 1px solid #27272A;">2</td>
-      <td style="padding: 12px; color: #f87171; text-align: center; border: 1px solid #27272A;">4</td>
-      <td style="padding: 12px; color: #4ade80; text-align: center; font-weight: bold; border: 1px solid #27272A;">142</td>
-      <td style="padding: 12px; color: #f87171; text-align: center; border: 1px solid #27272A;">2</td>
-      <td style="padding: 12px; color: #4ade80; text-align: center; font-weight: bold; border: 1px solid #27272A;">94.7%</td>
-    </tr>
-    <tr style="background: #0D0D12;">
-      <td style="padding: 12px; color: white; text-align: center; font-weight: bold; border: 1px solid #27272A;">Pituitary</td>
-      <td style="padding: 12px; color: #f87171; text-align: center; border: 1px solid #27272A;">3</td>
-      <td style="padding: 12px; color: #f87171; text-align: center; border: 1px solid #27272A;">6</td>
-      <td style="padding: 12px; color: #f87171; text-align: center; border: 1px solid #27272A;">3</td>
-      <td style="padding: 12px; color: #4ade80; text-align: center; font-weight: bold; border: 1px solid #27272A;">128</td>
-      <td style="padding: 12px; color: #4ade80; text-align: center; font-weight: bold; border: 1px solid #27272A;">91.4%</td>
-    </tr>
-  </tbody>
-  <tfoot>
-    <tr style="background: #6366F1;">
-      <td colspan="6" style="padding: 12px; color: white; text-align: center;">
-        ✅ Overall Accuracy: 93.96% | Total Correct: 513 / 546
-      </td>
-    </tr>
-  </tfoot>
-</table>
-
----
 
 ### Performance Metrics Summary
 
@@ -181,17 +128,7 @@ The system uses **DenseNet169** architecture with transfer learning from ImageNe
 
 ---
 
-### Training & Validation Curves
 
-<img src="images/training_curves.png" alt="Training Curves" width="100%"/>
-
-*Figure: Training and validation loss (left) and accuracy (right) over 25 epochs*
-
-### ROC Curves
-
-<img src="images/roc_curves.png" alt="ROC Curves" width="100%"/>
-
-*Figure: ROC curves with AUC scores for each tumor class*
 
 | Class | AUC-ROC |
 |-------|---------|
@@ -206,7 +143,8 @@ The system uses **DenseNet169** architecture with transfer learning from ImageNe
 
 #### Example 1: Pituitary Tumor (98.1% Confidence)
 
-<img src="images/gradcam_pituitary.png" alt="Grad-CAM Pituitary" width="100%"/>
+<img width="1087" height="390" alt="image" src="https://github.com/user-attachments/assets/2a75cfb9-8127-48fd-a423-aee6e13f9a17" />
+
 
 | Panel | Description |
 |-------|-------------|
@@ -215,8 +153,8 @@ The system uses **DenseNet169** architecture with transfer learning from ImageNe
 | **Panel 3** | Overlay showing tumor localization |
 
 #### Example 2: No Tumor (100.0% Confidence)
+<img width="1063" height="382" alt="image" src="https://github.com/user-attachments/assets/22fadcb7-c659-4ce5-bd9b-fc88f3b7fca1" />
 
-<img src="images/gradcam_notumor.png" alt="Grad-CAM No Tumor" width="100%"/>
 
 | Panel | Description |
 |-------|-------------|
@@ -236,7 +174,7 @@ The system uses **DenseNet169** architecture with transfer learning from ImageNe
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 The model is trained on the **Brain Tumor MRI Dataset** available on Kaggle.
 
@@ -270,7 +208,7 @@ The model is trained on the **Brain Tumor MRI Dataset** available on Kaggle.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Category | Technologies |
 |----------|--------------|
