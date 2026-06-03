@@ -1,0 +1,18 @@
+# ── Core ──────────────────────────────────────────────────────────────────────
+streamlit>=1.35.0
+plotly>=5.22.0
+pandas>=2.2.0
+numpy>=1.26.0
+
+# ── Deep Learning ──────────────────────────────────────────────────────────────
+# Install PyTorch separately via https://pytorch.org/get-started/locally/
+# CPU example: pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+torch>=2.3.0
+torchvision>=0.18.0
+
+# ── Image Processing ──────────────────────────────────────────────────────────
+Pillow>=10.3.0
+opencv-python-headless>=4.9.0   # headless = no GUI deps (perfect for servers)
+
+# ── ML utilities ──────────────────────────────────────────────────────────────
+scikit-learn>=1.5.0
