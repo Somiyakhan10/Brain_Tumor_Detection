@@ -1,12 +1,9 @@
-
 <div align="center">
     <h1>🧠 Interpretable Brain Tumor Classification System</h1>
     <h3>Deep Learning-based MRI Analysis with Explainable AI using Grad-CAM</h3>
     
     <a href="https://huggingface.co/spaces/somiya-khan01/Brain_Tumor_Classification" target="_blank">
-        <button style="background-color: #3b82f6; color: white; font-size: 16px; font-weight: bold; padding: 12px 24px; border: none; border-radius: 8px; cursor: pointer;">
-            🚀 Launch Live Demo
-        </button>
+        <img src="https://img.shields.io/badge/🚀_Launch_Live_Demo-3b82f6?style=for-the-badge&logo=huggingface&logoColor=white" alt="Launch Live Demo">
     </a>
 </div>
 
