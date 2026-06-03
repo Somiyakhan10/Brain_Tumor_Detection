@@ -5,7 +5,7 @@
     **[Launch Live Demo](https://huggingface.co/spaces/somiya-khan01/Brain_Tumor_Classification)**
 </div>
     
-
+---
 
 
 
