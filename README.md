@@ -1,11 +1,13 @@
-# 🧠 Interpretable Brain Tumor Classification System
-
-**Deep Learning-based MRI Analysis with Explainable AI using Grad-CAM**
-
-[![Streamlit App](https://img.shields.io/badge/🚀-Live_Demo-FF4B4B?style=for-the-badge&logo=streamlit)](https://huggingface.co/spaces/YOUR_USERNAME/YOUR_SPACE_NAME)
-[![GitHub](https://img.shields.io/badge/📁-GitHub_Repository-181717?style=for-the-badge&logo=github)](https://github.com/YOUR_USERNAME/Brain-Tumor-Classification)
-[![Python 3.10](https://img.shields.io/badge/Python-3.10-3776AB?style=for-the-badge&logo=python)](https://www.python.org/)
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-EE4C2C?style=for-the-badge&logo=pytorch)](https://pytorch.org/)
+<div align="center">
+    <h1>🧠 Interpretable Brain Tumor Classification System</h1>
+    <h3>Deep Learning-based MRI Analysis with Explainable AI using Grad-CAM</h3>
+    
+<a href="https://huggingface.co/spaces/somiya-khan01/Brain_Tumor_Classification" target="_blank">
+        <button style="background-color: #3b82f6; color: white; font-size: 16px; font-weight: bold; padding: 12px 24px; border: none; border-radius: 8px; cursor: pointer; font-family: sans-serif;">
+            🚀 Launch Live Demo
+        </button>
+    </a>
+</div>
 
 ---
 
@@ -15,22 +17,31 @@ A **Streamlit-based Web Application** to detect and classify brain tumors from M
 
 The system uses **DenseNet169** architecture with transfer learning from ImageNet. Beyond classification, the application provides **explainable AI** via **Grad-CAM** (Gradient-weighted Class Activation Mapping), which highlights the exact regions in the MRI that influenced the model's decision — making it valuable for clinical interpretation and radiologist validation.
 
+### MRI Tumor Classification
+<img width="944" height="439" alt="image" src="https://github.com/user-attachments/assets/707329cb-33ec-466f-b6ec-fe9ad922204c" />
+
+*Real-time MRI classification with confidence scores and Grad-CAM visualization*
+
+### Model Performance Dashboard
+<img width="946" height="429" alt="image" src="https://github.com/user-attachments/assets/1520bbb5-39b2-4c2d-a5dc-062612aa1474" />
+
+*Interactive dashboard with training curves, confusion matrix, and ROC analysis*
+
 ---
 
 ## 🎥 Demo
-
-![Demo Animation](images/demo.gif)
-
-*Click the Live Demo badge above to try the application*
 
 | Feature | Demo Status |
 |---------|-------------|
 | MRI Upload | ✅ Available |
 | Real-time Prediction | ✅ < 2 seconds |
 | Grad-CAM Visualization | ✅ 3-Panel Display |
+| Confidence Score | ✅ Displayed |
+| Probability Distribution | ✅ Bar Chart |
 | Report Download | ✅ Available |
+| Grad-CAM Overlay Download | ✅ Available |
 
-**Live Demo Link:** [https://huggingface.co/spaces/YOUR_USERNAME/YOUR_SPACE_NAME](https://huggingface.co/spaces/YOUR_USERNAME/YOUR_SPACE_NAME)
+**Live Demo Link:** [https://huggingface.co/spaces/somiya-khan01/Brain_Tumor_Classification](https://huggingface.co/spaces/somiya-khan01/Brain_Tumor_Classification)
 
 ---
 
