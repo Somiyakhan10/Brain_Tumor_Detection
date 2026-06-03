@@ -36,7 +36,8 @@ The system uses **DenseNet169** architecture with transfer learning from ImageNe
 
 ##  Model Architecture: DenseNet169
 
-<img src="images/densenet_architecture.png" alt="DenseNet169 Architecture" width="100%"/>
+<img width="7086" height="310" alt="deepseek_mermaid_20260603_84f76b (1)" src="https://github.com/user-attachments/assets/d7b34597-a9b9-4e0c-a2eb-357a383827e6" />
+
 
 *Figure: Complete DenseNet169 architecture with 4 dense blocks and transition layers*
 
@@ -53,14 +54,15 @@ The system uses **DenseNet169** architecture with transfer learning from ImageNe
 
 ### Residual / Identity Block
 
-<img width="7086" height="310" alt="deepseek_mermaid_20260603_84f76b" src="https://github.com/user-attachments/assets/570988ba-c25e-42e0-b106-e1a53f7b31ea" />
+<img width="3007" height="696" alt="deepseek_mermaid_20260603_1fc606 (1)" src="https://github.com/user-attachments/assets/3c894147-a507-4f12-92b5-c38589c5b301" />
+
 
 
 *Figure: Identity block showing skip connection (Add + ReLU)*
 
 ### Convolution Block
 
-<img width="8811" height="310" alt="deepseek_mermaid_20260603_4e775e" src="https://github.com/user-attachments/assets/c63615c6-b834-4916-bd68-ca7e52ad80af" />
+<img width="3031" height="963" alt="deepseek_mermaid_20260603_680382 (1)" src="https://github.com/user-attachments/assets/c53bdd8d-ae6b-4c7e-87d1-5958ba75900a" />
 
 
 
