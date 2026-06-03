@@ -1,8 +1,8 @@
 <div align="center">
     <h1>🧠 Interpretable Brain Tumor Classification System</h1>
     <h3>Deep Learning-based MRI Analysis with Explainable AI using Grad-CAM</h3>
-    
-   
+    </div>
+   ---
 
 
 
