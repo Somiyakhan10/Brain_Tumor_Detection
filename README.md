@@ -25,7 +25,7 @@ The system uses **DenseNet169** architecture with transfer learning from ImageNe
 ## 🎥 Demo
 
 <video width="100%" controls>
-  <source src="images/demo.mp4" type="video/mp4">
+  <source src="images">
   Your browser does not support the video tag.
 </video>
 
