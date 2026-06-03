@@ -1,4 +1,4 @@
-<img width="8811" height="310" alt="deepseek_mermaid_20260603_4e775e" src="https://github.com/user-attachments/assets/e2063ef1-85a3-4981-b002-1b565b0a09c4" /><div align="center">
+
     <h1> Interpretable Brain Tumor Classification System</h1>
     <h3>Deep Learning-based MRI Analysis with Explainable AI using Grad-CAM</h3>
     
@@ -9,7 +9,7 @@
     </a>
 </div>
 
----
+
 
 ##  About
 
@@ -17,22 +17,13 @@ A **Streamlit-based Web Application** to detect and classify brain tumors from M
 
 The system uses **DenseNet169** architecture with transfer learning from ImageNet. Beyond classification, the application provides **explainable AI** via **Grad-CAM** (Gradient-weighted Class Activation Mapping), which highlights the exact regions in the MRI that influenced the model's decision — making it valuable for clinical interpretation and radiologist validation.
 
----
+
 
 ##  Live Demo
 
-| Feature | Status |
-|---------|--------|
-| MRI Upload |  Available |
-| Real-time Prediction |  < 2 seconds |
-| Grad-CAM Visualization |  3-Panel Display |
-| Confidence Score |  Displayed |
-| Probability Distribution |  Bar Chart |
-| Report Download |  Available |
 
-**Live Demo Link:** [https://huggingface.co/spaces/somiya-khan01/Brain_Tumor_Classification](https://huggingface.co/spaces/somiya-khan01/Brain_Tumor_Classification)
 
----
+
 
 ##  Model Architecture: DenseNet169
 
@@ -69,7 +60,7 @@ The system uses **DenseNet169** architecture with transfer learning from ImageNe
 
 *Figure: Convolution block with projection skip connection*
 
----
+
 
 ##  Grad-CAM Explainability Pipeline
 
@@ -90,7 +81,7 @@ The system uses **DenseNet169** architecture with transfer learning from ImageNe
 | 5 | Weighted combination of activation maps creates heatmap |
 | 6 | Heatmap is upsampled and overlaid on original MRI |
 
----
+
 
 ##  Model Performance
 
@@ -128,7 +119,7 @@ The system uses **DenseNet169** architecture with transfer learning from ImageNe
 | No Tumor | 150 | 142 | 94.67% | 0.981 |
 | Pituitary | 140 | 128 | 91.43% | 0.963 |
 
----
+
 
 
 
@@ -139,7 +130,7 @@ The system uses **DenseNet169** architecture with transfer learning from ImageNe
 | No Tumor | 0.981 |
 | Pituitary | 0.963 |
 
----
+
 
 ### Grad-CAM Tumor Localization (3-Panel Display)
 
@@ -164,7 +155,7 @@ The system uses **DenseNet169** architecture with transfer learning from ImageNe
 | **Panel 2** | Minimal red regions (no tumor detected) |
 | **Panel 3** | No specific tumor localization |
 
----
+
 
 ### Interpretation Guide
 
@@ -174,7 +165,7 @@ The system uses **DenseNet169** architecture with transfer learning from ImageNe
 | 🔵 **Blue / Cool regions** | Areas that had **little influence** on the prediction (healthy tissue) |
 | **Overlay** | Heatmap superimposed on original MRI showing exact tumor localization |
 
----
+
 
 ##  Dataset
 
@@ -208,7 +199,7 @@ The model is trained on the **Brain Tumor MRI Dataset** available on Kaggle.
 > Nickparvar, M. (2021). Brain Tumor MRI Dataset. Kaggle.  
 > https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
 
----
+
 
 ##  Tech Stack
 
@@ -222,6 +213,6 @@ The model is trained on the **Brain Tumor MRI Dataset** available on Kaggle.
 | **Data Processing** | NumPy, Pandas, PIL |
 | **Deployment** | Hugging Face Spaces |
 
----
 
-## 📁 Project Structure
+
+
