@@ -27,12 +27,6 @@ The system uses **DenseNet169** architecture with transfer learning from ImageNe
 4. Grad-CAM 3-panel heatmap display
 5. Downloading prediction report
 
-[📹 Watch full video](images/demo.mp4) (if you have MP4 version)
-
-**Live Demo:** [Hugging Face Space](https://huggingface.co/spaces/somiya-khan01/Brain_Tumor_Classification)
-
-
-
 
 ##  Model Architecture: DenseNet169
 
@@ -96,7 +90,8 @@ The system uses **DenseNet169** architecture with transfer learning from ImageNe
 
 ### Sample Test Predictions
 
-![Uploading image.png…]()
+<img width="1107" height="756" alt="image" src="https://github.com/user-attachments/assets/13002e21-6007-4fda-909f-d0d1e8dc36ab" />
+
 
 
 *Figure: Sample predictions from the model on unseen test data*
