@@ -87,7 +87,8 @@ The system uses **DenseNet169** architecture with transfer learning from ImageNe
 
 ### Sample Test Predictions
 
-<img src="images/sample_predictions.png" alt="Sample Predictions" width="100%"/>
+![Uploading image.png…]()
+
 
 *Figure: Sample predictions from the model on unseen test data*
 
