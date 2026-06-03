@@ -23,7 +23,7 @@ The system uses **DenseNet169** architecture with transfer learning from ImageNe
 
 ## 🎥 Demo
 
-<img src="https://huggingface.co/spaces/somiya-khan01/Brain_Tumor_Classification/resolve/main/images/demo.gif" alt="Demo" width="100%"/>
+https://github.com/Somiyakhan10/Brain_Tumor_Detection/blob/0f343894433be576346d7ccb7716a29fd06ffdf2/ezgif.com-video-to-gif-converter%20(1).gif
 
 *Click the play button ▶️ to watch the demonstration*
 
