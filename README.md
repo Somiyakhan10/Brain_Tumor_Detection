@@ -150,8 +150,6 @@ The system uses **DenseNet169** architecture with transfer learning from ImageNe
 | **Panel 2** | Grad-CAM heatmap (red = tumor region) |
 | **Panel 3** | Overlay showing tumor localization |
 
-#### Example 2: No Tumor (100.0% Confidence)
-<img width="1063" height="382" alt="image" src="https://github.com/user-attachments/assets/22fadcb7-c659-4ce5-bd9b-fc88f3b7fca1" />
 
 
 | Panel | Description |
