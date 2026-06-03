@@ -19,8 +19,23 @@ The system uses **DenseNet169** architecture with transfer learning from ImageNe
 
 
 
-##  Live Demo
 
+## 🎥 Demo
+
+<img src="images/demo.gif" alt="Brain Tumor Classification Demo" width="100%"/>
+
+*Live demonstration of the Brain Tumor Classification System*
+
+**Demo Steps Shown in Video:**
+1. Uploading MRI scan
+2. Real-time prediction with confidence score
+3. Probability distribution visualization
+4. Grad-CAM 3-panel heatmap display
+5. Downloading prediction report
+
+[📹 Watch full video](images/demo.mp4) (if you have MP4 version)
+
+**Live Demo:** [Hugging Face Space](https://huggingface.co/spaces/somiya-khan01/Brain_Tumor_Classification)
 
 
 
