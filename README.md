@@ -17,15 +17,11 @@ A **Streamlit-based Web Application** to detect and classify brain tumors from M
 
 The system uses **DenseNet169** architecture with transfer learning from ImageNet. Beyond classification, the application provides **explainable AI** via **Grad-CAM** (Gradient-weighted Class Activation Mapping), which highlights the exact regions in the MRI that influenced the model's decision — making it valuable for clinical interpretation and radiologist validation.
 
-
-
-
-
 ## 🎥 Demo
 
-https://github.com/Somiyakhan10/Brain_Tumor_Detection/blob/0f343894433be576346d7ccb7716a29fd06ffdf2/ezgif.com-video-to-gif-converter%20(1).gif
+![Brain Tumor Classification Demo](https://raw.githubusercontent.com/Somiyakhan10/Brain_Tumor_Detection/db69b49860e41f5e3f66e8b92da5dddc534a09e1/ezgif.com-video-to-gif-converter%20(1).gif)
 
-*Click the play button ▶️ to watch the demonstration*
+*Watch the demonstration above (animated GIF)*
 
 **Live Demo:** [Launch on Hugging Face](https://huggingface.co/spaces/somiya-khan01/Brain_Tumor_Classification)
 
