@@ -20,14 +20,10 @@ The system uses **DenseNet169** architecture with transfer learning from ImageNe
 
 
 
-## 🎥 Demo
 
 ## 🎥 Demo
 
-<video width="100%" controls>
-  <source src="images">
-  Your browser does not support the video tag.
-</video>
+<img src="https://huggingface.co/spaces/somiya-khan01/Brain_Tumor_Classification/resolve/main/images/demo.gif" alt="Demo" width="100%"/>
 
 *Click the play button ▶️ to watch the demonstration*
 
